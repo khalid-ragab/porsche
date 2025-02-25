@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsche Motorsport Team</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+<header class="header">
+   <a href="index.html"><img class="header_img" src="/porsche/logo.png" alt="Porsche Logo"></a>
+    <button class="header_toggle_button" id="menuToggle"><i class="fa-solid fa-bars"></i></button>
+
+<div>
+    <ul class="header_list" id="menuList">
+        <button class="header_cancel_button" id="menuCancel"><i class="fa-solid fa-square-xmark"></i></button>
+        <li class="header_list_item">Home</li>
+        <li class="header_list_item">About</li>
+        <li class="header_list_item">Our Races</li>
+        <li class="header_list_item">Contact Us</li>
+    </ul>
+</div>
+    <div class="header_div">
+        <h1 class="header_div_h1">PORSCHE MOTORSPORT TEAM</h1>
+
+        <p class="header_div_p">Porsche Motorsport Team embodies precision engineering and
+             relentless performance, pushing the limits on tracks worldwide.<br> Driven by passion and innovation,
+           we race to set new standards in motorsport excellence.
+        </p>
+    </div>
+
+    <div class="header_div2">
+        <button class="header_div2_button">JOIN US</button>
+    </div>
+</header>
+
+<script>
+    document.getElementById('menuToggle').addEventListener('click', function() {
+        const menuList = document.getElementById('menuList');
+        menuList.classList.toggle('active');
+    });
+
+    document.getElementById('menuCancel').addEventListener('click', function() {
+        const menuList = document.getElementById('menuList');
+        menuList.classList.remove('active');
+    });
+</script>
+</body>
+</html>
