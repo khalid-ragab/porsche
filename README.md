@@ -1,4 +1,15 @@
-This is a simple project inspired by porsche motorsport team. 
-i made it from scratch using html , sass , javascript , responsive design .
-i used "smallest first approach" while making it responsive as i set the smallest screen size styles first then updated only the affected styles according to the bigger screens next.
-thanks for reading :)
+# Porsche GT3 Landing Page
+
+A responsive one-page website showcasing the Porsche GT3 racing car. Built with semantic HTML5 and styled using SCSS, featuring a full-screen background, navigation bar, and smooth layout across all devices.
+
+## Features
+
+- Full-page Porsche GT3 racing car background  
+- Fixed navigation bar with responsive layout    
+- Mobile-first design using SCSS media queries
+
+## Technologies Used
+
+- HTML5  
+- SCSS  
+- Responsive Web Design
